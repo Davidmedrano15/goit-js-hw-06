@@ -27,12 +27,10 @@ function destroyBoxes() {
   boxesContainer.innerHTML = "";
 }
 
-// Obtener referencias a los elementos del DOM
 const createButton = document.querySelector("button[data-create]");
 const destroyButton = document.querySelector("button[data-destroy]");
 const input = document.querySelector("input");
 
-// Asociar eventos a los botones
 createButton.addEventListener("click", () => {
   const amount = parseInt(input.value);
   createBoxes(amount);

@@ -25,6 +25,8 @@ const imagesMarkup = images
   .join("");
 gallery.insertAdjacentHTML("beforeend", imagesMarkup);
 
+console.log(imagesMarkup);
+
 // Tarea 3
 // Escriba un script para crear una galería de imágenes a partir de un array de datos. El HTML tiene una lista ul.gallery.
 
